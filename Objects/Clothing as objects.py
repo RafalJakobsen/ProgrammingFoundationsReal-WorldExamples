@@ -16,10 +16,12 @@ class jeans:
         print("Taking off {}x{} {} jeans".format(self.waist, self.length, self.color))
         self.wearing = False
 
-my_jeans = jeans(31,32,"blue")
+
+my_jeans = jeans(31, 32, "blue")
 dir(my_jeans)
 my_jeans.put_on()
 my_jeans.wearing
+
 
 class shirt:
     def __int__(self):
@@ -31,13 +33,10 @@ class shirt:
     def make_clean(self):
         self.clean = True
 
-# input on shell
+# THIS IS FOR input on shell
 # red = shirt()
 # crimson = red
 # print(crimson.clean)
 # print(red.make_dirty())
 # print(red.clean)
 # print(crimson.clean)
-
-
-
