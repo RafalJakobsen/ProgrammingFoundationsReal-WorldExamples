@@ -16,4 +16,3 @@ print(row.pop(5))
 print(row)
 row.remove("Lexus")
 print(row)
-
